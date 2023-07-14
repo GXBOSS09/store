@@ -10,7 +10,7 @@ const config = {
     socialLinks: {
         discordInvitationLink: "comingsoon.html",
         tiktok: "comingsoon.html",
-        instagram: "comingsoon.html"
+        instagram: "https://www.instagram.com/it.giogio/"
     },
 }
 
