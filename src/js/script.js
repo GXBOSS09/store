@@ -2,8 +2,8 @@
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
-        serverName: "Example", /*Server name*/
-        serverIp: "Example", /*Server IP*/
+        serverName: "MrTanxy_ shop", /*Server name*/
+        serverIp: "MrTanxy_ shop",
         discordServerID: "" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
@@ -11,67 +11,6 @@ const config = {
         discordInvitationLink: "comingsoon.html",
         tiktok: "comingsoon.html",
         instagram: "comingsoon.html"
-    },
-
-    userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
-    adminTeamPage: {
-        leaders: [
-            {
-                inGameName: "MrTanxy_",
-                rank: "Owner",
-                skinUrlOrPathToFile: ""
-
-            },
-            {
-                inGameName: "Example",
-                rank: "Owner",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Manager",
-                skinUrlOrPathToFile: ""
-            }
-        ],
-        developers: [
-            {
-                inGameName: "Example",
-                rank: "Developer",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Developer",
-                skinUrlOrPathToFile: ""
-            }
-        ],
-        helpers: [
-            {
-                inGameName: "Example",
-                rank: "Moderator",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Helper++",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Helper+",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Helper+",
-                skinUrlOrPathToFile: ""
-            },
-            {
-                inGameName: "Example",
-                rank: "Helper",
-                skinUrlOrPathToFile: ""
-            },
-        ],
     },
 }
 
@@ -325,21 +264,3 @@ setDataFromConfigToHtml();
     
 
 })(jQuery);
-
-
-
-// When the user clicks on div, open the popup
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
-
-function myFunctionsup() {
-    var popup = document.getElementById("myPopupsup");
-    popup.classList.toggle("show");
-}
-
-function myFunctionhelp() {
-    var popup = document.getElementById("myPopuphelp");
-    popup.classList.toggle("show");
-}
