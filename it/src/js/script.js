@@ -264,3 +264,9 @@ setDataFromConfigToHtml();
     
 
 })(jQuery);
+
+
+function myFunctionhel() {
+    var popup = document.getElementById("myPopuphel");
+    popup.classList.toggle("show");
+}

@@ -271,3 +271,63 @@ section:not(#header) .content {
     text-align: center;
   }
 }
+
+.popup-helpe {
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    transition: 0.2s;
+      position:sticky;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+       /* The actual popup */
+       .popup-helpe .popuptexthel {
+          visibility: hidden;
+          background-color: #2c333e;
+          color: #fff;
+          text-align: left;
+          border-radius: 7px;
+          padding: 15px;
+          position: absolute;
+          z-index: 1;
+          bottom: 125%;
+          margin-bottom: -150%;
+          margin-left: -120px;
+          font-size: 20px;
+          text-align: center;
+          width: 170px;
+      }
+  
+          /* Popup arrow */
+          .popup-helpe .popuptexthelp::after {
+              content: "";
+              position: absolute;
+              top: -18%;
+              left: 30%;
+              transform: rotate(180deg);
+              margin-left: 20px;
+              border-width: 7px;
+              border-style: solid;
+              border-color: #2c333e transparent transparent transparent;
+          }
+  
+      /* Toggle this class - hide and show the popup */
+      .popup-helpe .show {
+          visibility: visible;
+          -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+      }
+  
+  .img-flag{
+      width: 20px;
+      margin-right: 3px;
+  }
+  
